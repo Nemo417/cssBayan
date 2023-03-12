@@ -1,0 +1,87 @@
+body{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.accordion {
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #e49999;
+    color: #131010;
+    cursor: pointer;
+    font-size: large;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-body {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion:hover .accordion-header {
+    background-color: #ddd;
+  }
+  
+  .accordion:hover .accordion-body {
+    display: block;
+  }
+
+  button img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+.hoverable-summary {
+    cursor: pointer;
+ }
+  
+  .hoverable-summary::-webkit-details-marker {
+    display: none;
+    color: #f00;
+    
+  }
+  
+  .hoverable-summary:hover::before {
+    content: "▼ ";
+  }
+  
+  .hoverable-summary[open]::before {
+    content: "▲ ";
+  }
+button:hover{
+    color:red;
+}
+button:not(.active):hover {
+    color: red;
+  }
+  
+  button:not(.active):not(:hover) {
+    color: blue;
+  }
+  button.active {
+    color: red;
+  }  
+ 
+  
+  
